@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>&rarr; Assignment 6-ITE220</title>
+	<!-- CSS I thought that it might use but it's not use in this assignment -->
+	<link rel="stylesheet" type="text/css" href="css/tasks.css">
+</head>
+<body>
+	<h1>Assignment#6</h1>
+	<h2>Task#1: Show width and height; current location, and reload button</h2>
+	<p>width: <span id="widthLocation"></span></p>
+	<p>Height: <span id="heightLocation"></span></p>
+	<p>Current Location: <span id="locate"></span></p>
+
+	<button id="re">Reload Page</button>
+
+	<hr>
+
+	<h2>Task#2: Manipulating DOM</h2>
+	<p><i>Instruction as described on the buttons</i></p>
+
+	<p id="pOne">P1 with id</p>
+	<p id="pTwo">P2 with id</p>
+	<p id="pThree">P3 with id</p>
+	<p id="greet"></p>
+
+	<button id="changeColor">Change to yellow color of the thrid P Tag</button>
+	<button id="hello">Append Hello World Under P3</button><br>
+	<button id="showAndHide">Show/Hide P2 (Hint: Use if (e.style.display == null || e.style.display == "none")</button>
+
+	<hr>
+
+	<h2>Task#3: Mouse and Click Event</h2>
+	<p><i>Show "On Mouse Over" when I mouse over the link; Show "On Mouse Out" when I mouse out the link; (do the same for Mouse Down, and Mouse Up) when Double Click, Show "On Double Click"</i></p>
+
+	<a href="JavaScript:void(0)" id="link">Show Event Here</a>
+
+	<!-- onmouseover = "this.text='On Mouse Over'"
+	onmouseout = "this.text='On Mouse Out'"
+	ondblclick = "this.text='On Double Click'"
+	onmousedown= "this.text='On Mouse Down'"
+	onmouseup = "this.text='On Mouse Up'"
+	onclick = "this.text='On Click'" -->
+
+	<hr>
+
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+
+	<script src="js/tasks.js" type="text/Javascript"></script>
+
+
+</body>
+</html>
